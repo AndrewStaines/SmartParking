@@ -1,0 +1,13 @@
+#scroll::-webkit-scrollbar {
+    display: none;
+}
+
+@media only screen and (max-width: 414px){
+    .text{
+        visibility: collapse;
+    }
+
+    .phonetext{
+        visibility: visible;
+    }
+}
